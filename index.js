@@ -31,8 +31,8 @@ app.get('/', (req, res) => {
   res.send('YaY Your Bot Status Changed✨');
 });
 app.listen(port, () => {
-  console.log(`🔗 Listening to RTX: http://localhost:${port}`);
-  console.log(`🔗 Powered By RTX`);
+  console.log(`🔗 Listening to louis: http://localhost:${port}`);
+  console.log(`🔗 Powered By Louis`);
 });
 
 
@@ -92,8 +92,8 @@ function updateStatusAndSendMessages() {
 
 client.once('ready', () => {
   console.log(`\x1b[36m%s\x1b[0m`, `|    ✅ Bot is ready as ${client.user.tag}`);
-  console.log(`\x1b[36m%s\x1b[0m`, `|    ✨HAPPY NEW YEAR MY DEAR FAMILY`);
-  console.log(`\x1b[36m%s\x1b[0m`, `|    ❤️WELCOME TO 2024`);
+  console.log(`\x1b[36m%s\x1b[0m`, `|    ✨Louis is cool`);
+  console.log(`\x1b[36m%s\x1b[0m`, `|    ❤️Made By RTX credits to him.`);
   updateStatusAndSendMessages();
 
   setInterval(() => {
